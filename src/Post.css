@@ -13,7 +13,9 @@
     margin: 0px;
 }
 .post-box{
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 50%;
 
 }
@@ -29,4 +31,9 @@
 }
 .bookmark button{
     background-color: aliceblue;
+}
+.main-box{
+display: flex;
+justify-content: center;
+align-items: center;
 }
